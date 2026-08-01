@@ -1,8 +1,8 @@
 // title components
 
 
-function Title(){
-    return <h1>My first react app</h1>
+function Title({Title}){
+    return <h1>{Title}</h1>
 }
 
 export default Title 

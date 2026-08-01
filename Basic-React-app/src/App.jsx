@@ -6,15 +6,18 @@ import Title from './title.jsx'
 import Paragraph from './paragraph.jsx'
 import Product1 from './product1.jsx'
 import Product2 from './product2.jsx'
+import MessageBox from './msgbox.jsx'
 
 function App() {
   let mobile={name:"Iphone 14 pro max",age:1,team:"Apple"}
   let labtop={name:"Dell XPS 15",age:2,team:"Dell"}
   return (
     <div>
+      <MessageBox message="Welcome to our store!" username="Shrinath" textcolor="Blue" />
       <Title Title="Products "/>
       <Product1 Title="Phone" price={10000} feature={mobile}/>
       <Product2 Title="Laptop" price={20000} feature={labtop}/> 
+      
     </div>
   )
 }

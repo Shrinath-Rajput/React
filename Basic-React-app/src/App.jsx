@@ -13,6 +13,7 @@ import Price from './price.jsx'
 import './amzon_product.css'
 import Button from './button.jsx'
 import Hover from './hover.jsx'
+import Form from './form.jsx'
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
       </div>
       <Button />
       <Hover />
+      <Form />
     </>
   );
 
